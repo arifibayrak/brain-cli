@@ -1,0 +1,47 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+dist/
+build/
+*.egg
+.eggs/
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Environment / secrets
+.env
+.env.*
+*.key
+*.pem
+credentials.json
+token.json
+
+# Brain config (stored in ~/.brain, not here)
+*.toml.local
+
+# Test artifacts
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Claude Code agents (local dev only)
+.agents/
